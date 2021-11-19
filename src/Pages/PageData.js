@@ -6,7 +6,9 @@ export default function PageData() {
         <h1>DATA</h1>
         <p>Please input Data</p>
         <input type="number"/>
-        
+        <input type="number"/>
+        <button>OK</button>
+
     </div>
     )
 }

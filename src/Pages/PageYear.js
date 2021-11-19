@@ -6,6 +6,7 @@ export default function PageYear() {
             <h1>YEAR</h1>
             <p>Please input Year</p>
             <input type="number"/>
+            <button>OK</button>
         </div>
     )
 }

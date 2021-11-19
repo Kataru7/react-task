@@ -6,6 +6,7 @@ export default function PageNamber() {
             <h1>NUMBER</h1>
             <p>Please input Number</p>
             <input type="number"/>
+            <button>OK</button>
         </div>
     )
 }
