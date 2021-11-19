@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 
 export default function PageNamber() {
-    let [data, setData] = useState("");
-    
+    let [data, setData] = useState("");    
     let [inputVal, setInputVal] = useState(1)
-
     let changeinput = (event) => {
         setInputVal(event.target.value)
     }
@@ -16,11 +14,7 @@ export default function PageNamber() {
         .then(text => setData(text)
         )); 
     }
-    
-
-
-    return (
-        
+    return (        
         <div className="info">
             <h1>NUMBER</h1>
             <p>Please input number</p>
