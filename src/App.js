@@ -12,13 +12,13 @@ import Home from './Pages/Home';
 
 function App() {
   return (
-    <>
+    <div className="container">
 
-
-    <NavLink to={'/data'}>data</NavLink>
-    <NavLink to={'/number'}>number</NavLink>
-    <NavLink to={'/year'}>year</NavLink>
-
+    <div className="nav">
+    <NavLink to={'/data'} >data</NavLink>
+    <NavLink to={'/number'} >number</NavLink>
+    <NavLink to={'/year'} >year</NavLink>
+    </div>
     <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/data" element={<PageData />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/year" element={<PageYear />} />
     </Routes>
 
-    </>
+    </div>
   );
 }
 
