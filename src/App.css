@@ -1,8 +1,11 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container {
   margin: 0 auto;
   max-width: 1000px;
   background-color: gray;
-
+  padding-bottom: 50px;
 }
 
 .nav {
@@ -23,4 +26,11 @@
 
 .info {
   text-align: center;
+}
+
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(31, 201, 31);
 }
